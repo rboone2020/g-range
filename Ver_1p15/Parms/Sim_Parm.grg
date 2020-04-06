@@ -1,0 +1,49 @@
+TRUE                                  // Echo spatial maps (True) or do not (False).  Coding is used in echoing to reduce each cell to a single character, but the echoed information can still be large.
+0                                     // Echo to screen level, after initialization (0 - Nothing but date, 1 - Names of maps read-in)
+MAP_FILES
+'\layers\zone0p5.asc'                 // The zonal map for the given resolution.  ALSO, the dimension of the world is taken from this layer.
+'\layers\land0p5.asc'                 // The map defining sea (0) and land (1)
+'\layers\elev0p5.asc'                 // The map of elevations
+'\layers\lats0p5.asc'                 // The map of the latitudes of the centers of the cells
+'\layers\top_sand0p5.asc'             // The map of the topsoil sand percentage
+'\layers\top_silt0p5.asc'             // The map of the topsoil silt percentage
+'\layers\top_clay0p5.asc'             // The map of the topsoil clay percentage
+'\layers\top_gravel0p5.asc'           // The map of the topsoil gravel volume
+'\layers\top_bulk0p5.asc'             // The map of the topsoil bulk density
+'\layers\top_carbon0p5.asc'           // The map of the topsoil organic carbon content
+'\layers\sub_sand0p5.asc'             // The map of the sub-soil sand percentage
+'\layers\sub_silt0p5.asc'             // The map of the sub-soil silt percentage
+'\layers\sub_clay0p5.asc'             // The map of the sub-soil clay percentage
+'\layers\sub_gravel0p5.asc'           // The map of the sub-soil gravel volume
+'\layers\sub_bulk0p5.asc'             // The map of the sub-soil bulk density
+'\layers\sub_carbon0p5.asc'           // The map of the sub-soil organic carbon content
+'\layers\st10_decid_0p5.asc'          // The map showing initial deciduous tree cover
+'\layers\st10_egreen_0p5.asc'         // The map showing initial evergreen tree cover
+'\layers\st10_shbadj_0p5.asc'         // The map of initial shrub cover (e.g., MOD44 as modified to isolate shrubs, such as it is)
+'\layers\st10_hrbadj_0p5.asc'         // The map of initial herbaceous cover (e.g., MOD44, modified to exclude shrubs and approach expectations)
+'\layers\stv2_sage0p5.asc'            // The map of different rangeland types, for which parameters are provided in another file (now the SAGE effort Potential Vegetation map with 15 classes)
+'\layers\Split_goge0p5.asc'           // The map of land cover types.  The following file identifies which of the classes are rangeland to be modeled.
+'goge.leg'                            // Map legend with rangeland flag.  This file identifies which landscape cells should be modeled.
+'\layers\prcp_avg_0p5.asc'            // Annual average precipitation, in mm / year
+'\layers\temp_avg_0p5.asc'            // Annual average temperature, in C
+'\layers\mrc_rcp85_prcp\p'            // Path and prefix of monthly precipitation data.
+'\layers\mrc_rcp85_tmax\x'            // Path and prefix of maXimum monthly temperature data.
+'\layers\mrc_rcp85_tmin\n'            // Path and prefix of miNimum monthly temperature data.
+'_0p5.asc'                            // Suffix for both monthly precipitation and temperature data.
+'Land_Units.grg'                      // Name of file storing land unit parameter values
+0                                     // A setting used to indicate fire maps should be used (1) or fire frequency should be controlled by the values for land units (0)
+'\layers\fire\'                       // Path to fire maps, if used.
+'fire_dat.grg'                        // Name of file storing fire histories, if used.
+0                                     // A setting used to indicate fertilizer maps should be used (1) or fertilization should be controlled by the values for land units (0)
+'\layers\fert\'                       // Path to fertilization maps, if used.
+'fert_dat.grg'                        // Name of file storing fertilization histories, if used.
+'CO2_80x3.grg'                        // Name of file storing effects of CO2 effect on production, by year, with three columns, one per facet.
+0                                     // State variable treatment - 0: Do nothing   1: Write state at end   2: Read state at start    3: Read state at start and write at end
+'\output\Stv_0p5_1013Out.grg'         // State variable file to which simulation results will be written to, if the state variable treatment flag is 1 or 3
+'\output\Stv_0p5_1013In.grg'          // State variable file from which the simulation is started, if the state variable treatment flag is 2 or 3
+1951                                  // Year to start simulation (1957)
+2070                                  // Year to end simulation (for CRU 3 data, weather will wrap after 2006, unless other options are available) (Entire years will always be run)
+
+
+
+NOTE: Adding or removing lines to this file may corrupt the model

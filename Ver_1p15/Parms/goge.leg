@@ -1,0 +1,98 @@
+97                        // Number of types  -- Olson Global Ecosystem Legend
+0,   1, 'URBAN                                 '   // Rangeland flag, ID, Name
+1,   2, 'LOW SPARSE GRASSLAND                  '   // Rangeland flag, ID, Name
+0,   3, 'CONIFEROUS FOREST                     '   // Rangeland flag, ID, Name
+0,   4, 'DECIDUOUS CONIFER FOREST              '   // Rangeland flag, ID, Name
+0,   5, 'DECIDUOUS BROADLEAF FOREST            '   // Rangeland flag, ID, Name
+0,   6, 'EVERGREEN BROADLEAF FORESTS           '   // Rangeland flag, ID, Name
+1,   7, 'TALL GRASSES AND SHRUBS               '   // Rangeland flag, ID, Name
+0,   8, 'BARE DESERT                           '   // Rangeland flag, ID, Name
+0,   9, 'UPLAND TUNDRA                         '   // Rangeland flag, ID, Name
+0,  10, 'IRRIGATED GRASSLAND                   '   // Rangeland flag, ID, Name
+1,  11, 'SEMI DESERT                           '   // Rangeland flag, ID, Name
+0,  12, 'GLACIER ICE                           '   // Rangeland flag, ID, Name
+0,  13, 'WOODED WET SWAMP                      '   // Rangeland flag, ID, Name
+0,  14, 'INLAND WATER                          '   // Rangeland flag, ID, Name
+0,  15, 'SEA WATER                             '   // Rangeland flag, ID, Name
+0,  16, 'SHRUB EVERGREEN                       '   // Rangeland flag, ID, Name
+0,  17, 'SHRUB DECIDUOUS                       '   // Rangeland flag, ID, Name
+0,  18, 'MIXED FOREST AND FIELD                '   // Rangeland flag, ID, Name
+0,  19, 'EVERGREEN FOREST AND FIELDS           '   // Rangeland flag, ID, Name
+0,  20, 'COOL RAIN FOREST                      '   // Rangeland flag, ID, Name
+0,  21, 'CONIFER BOREAL FOREST                 '   // Rangeland flag, ID, Name
+0,  22, 'COOL CONIFER FOREST                   '   // Rangeland flag, ID, Name
+0,  23, 'COOL MIXED FOREST                     '   // Rangeland flag, ID, Name
+0,  24, 'MIXED FOREST                          '   // Rangeland flag, ID, Name
+0,  25, 'COOL BROADLEAF FOREST                 '   // Rangeland flag, ID, Name
+0,  26, 'DECIDUOUS BROADLEAF FOREST            '   // Rangeland flag, ID, Name
+0,  27, 'CONIFER FOREST                        '   // Rangeland flag, ID, Name
+0,  28, 'MONTANE TROPICAL FORESTS              '   // Rangeland flag, ID, Name
+0,  29, 'SEASONAL TROPICAL FOREST              '   // Rangeland flag, ID, Name
+0,  30, 'COOL CROPS AND TOWNS                  '   // Rangeland flag, ID, Name
+0,  31, 'CROPS AND TOWN                        '   // Rangeland flag, ID, Name
+1,  32, 'DRY TROPICAL WOODS                    '   // Rangeland flag, ID, Name  Part of Forest classes in IGBP.
+0,  33, 'TROPICAL RAINFOREST                   '   // Rangeland flag, ID, Name
+0,  34, 'TROPICAL DEGRADED FOREST              '   // Rangeland flag, ID, Name
+0,  35, 'CORN AND BEANS CROPLAND               '   // Rangeland flag, ID, Name
+0,  36, 'RICE PADDY AND FIELD                  '   // Rangeland flag, ID, Name
+0,  37, 'HOT IRRIGATED CROPLAND                '   // Rangeland flag, ID, Name
+0,  38, 'COOL IRRIGATED CROPLAND               '   // Rangeland flag, ID, Name
+0,  39, 'COLD IRRIGATED CROPLAND               '   // Rangeland flag, ID, Name
+0,  40, 'COOL GRASSES AND SHRUBS               '   // Rangeland flag, ID, Name
+0,  41, 'HOT AND MILD GRASSES AND SHRUBS       '   // Rangeland flag, ID, Name
+0,  42, 'COLD GRASSLAND                        '   // Rangeland flag, ID, Name
+1,  43, 'SAVANNA (WOODS)                       '   // Rangeland flag, ID, Name
+0,  44, 'MIRE, BOG, FEN                        '   // Rangeland flag, ID, Name
+0,  45, 'MARSH WETLAND                         '   // Rangeland flag, ID, Name
+0,  46, 'MEDITERRANEAN SCRUB                   '   // Rangeland flag, ID, Name
+0,  47, 'DRY WOODY SCRUB                       '   // Rangeland flag, ID, Name
+0,  48, 'DRY EVERGREEN WOODS                   '   // Rangeland flag, ID, Name
+0,  49, 'VOLCANIC ROCK                         '   // Rangeland flag, ID, Name
+0,  50, 'SAND DESERT                           '   // Rangeland flag, ID, Name
+0,  51, 'SEMI DESERT SHRUBS                    '   // Rangeland flag, ID, Name
+0,  52, 'SEMI DESERT SAGE                      '   // Rangeland flag, ID, Name
+0,  53, 'BARREN TUNDRA                         '   // Rangeland flag, ID, Name
+0,  54, 'COOL SOUTHERN HEMISPHERE MIXED FORESTS'   // Rangeland flag, ID, Name
+0,  55, 'COOL FIELDS AND WOODS                 '   // Rangeland flag, ID, Name Part of Cropland/Natural Vegetation Mosaic in IGBP only.  So fields are crops, presumably.
+0,  56, 'FOREST AND FIELD                      '   // Rangeland flag, ID, Name
+0,  57, 'COOL FOREST AND FIELD                 '   // Rangeland flag, ID, Name
+0,  58, 'FIELDS AND WOODY SAVANNA              '   // Rangeland flag, ID, Name Part of Cropland/Natural Vegetation Mosaic in IGBP only.  So fields are crops, presumably.
+0,  59, 'SUCCULENT AND THORN SCRUB             '   // Rangeland flag, ID, Name
+0,  60, 'SMALL LEAF MIXED WOODS                '   // Rangeland flag, ID, Name
+0,  61, 'DECIDUOUS AND MIXED BOREAL FOREST     '   // Rangeland flag, ID, Name
+0,  62, 'NARROW CONIFERS                       '   // Rangeland flag, ID, Name
+0,  63, 'WOODED TUNDRA                         '   // Rangeland flag, ID, Name
+0,  64, 'HEATH SCRUB                           '   // Rangeland flag, ID, Name
+0,  65, 'COASTAL WETLAND - NW                  '   // Rangeland flag, ID, Name
+0,  66, 'COASTAL WETLAND - NE                  '   // Rangeland flag, ID, Name
+0,  67, 'COASTAL WETLAND - SE                  '   // Rangeland flag, ID, Name
+0,  68, 'COASTAL WETLAND - SW                  '   // Rangeland flag, ID, Name
+0,  69, 'POLAR AND ALPINE DESERT               '   // Rangeland flag, ID, Name
+0,  70, 'GLACIER ROCK                          '   // Rangeland flag, ID, Name
+0,  71, 'SALT PLAYAS                           '   // Rangeland flag, ID, Name
+0,  72, 'MANGROVE                              '   // Rangeland flag, ID, Name
+0,  73, 'WATER AND ISLAND FRINGE               '   // Rangeland flag, ID, Name
+0,  74, 'LAND, WATER, AND SHORE                '   // Rangeland flag, ID, Name
+0,  75, 'LAND AND WATER, RIVERS                '   // Rangeland flag, ID, Name
+0,  76, 'CROP AND WATER MIXTURES               '   // Rangeland flag, ID, Name
+0,  77, 'SOUTHERN HEMISPHERE CONIFERS          '   // Rangeland flag, ID, Name
+0,  78, 'SOUTHERN HEMISPHERE MIXED FOREST      '   // Rangeland flag, ID, Name
+0,  79, 'WET SCLEROPHYLIC FOREST               '   // Rangeland flag, ID, Name
+0,  80, 'COASTLINE FRINGE                      '   // Rangeland flag, ID, Name
+0,  81, 'BEACHES AND DUNES                     '   // Rangeland flag, ID, Name
+0,  82, 'SPARSE DUNES AND RIDGES               '   // Rangeland flag, ID, Name
+0,  83, 'BARE COASTAL DUNES                    '   // Rangeland flag, ID, Name
+0,  84, 'RESIDUAL DUNES AND BEACHES            '   // Rangeland flag, ID, Name
+0,  85, 'COMPOUND COASTLINES                   '   // Rangeland flag, ID, Name
+0,  86, 'ROCKY CLIFFS AND SLOPES               '   // Rangeland flag, ID, Name
+0,  87, 'SANDY GRASSLAND AND SHRUBS            '   // Rangeland flag, ID, Name  Not present in GOGE grid
+0,  88, 'BAMBOO                                '   // Rangeland flag, ID, Name
+0,  89, 'MOIST EUCALYPTUS                      '   // Rangeland flag, ID, Name
+0,  90, 'RAIN GREEN TROPICAL FOREST            '   // Rangeland flag, ID, Name
+1,  91, 'WOODY SAVANNA                         '   // Rangeland flag, ID, Name
+0,  92, 'BROADLEAF CROPS                       '   // Rangeland flag, ID, Name
+0,  93, 'GRASS CROPS                           '   // Rangeland flag, ID, Name
+0,  94, 'CROPS, GRASS, SHRUBS                  '   // Rangeland flag, ID, Name
+0,  95, 'EVERGREEN TREE CROP                   '   // Rangeland flag, ID, Name
+0,  96, 'DECIDUOUS TREE CROP                   '   // Rangeland flag, ID, Name
+0, 100, 'NO DATA                               '   // Rangeland flag, ID, Name

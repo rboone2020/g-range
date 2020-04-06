@@ -1,0 +1,7 @@
+1900, 1, 'no_fire_1p0.asc'                           // Year, month, and map name, causing a change in map used
+1982, 3, 'fire_1_1p0.asc'                            // Year, month, and map name, causing a change in map used
+1986, 7, 'no_fire_1p0.asc'                           // Year, month, and map name, causing a change in map used
+1986, 2, 'fire_2_1p0.asc'                            // Year, month, and map name, causing a change in map used
+1986, 6, 'fire_3_1p0.asc'                            // Year, month, and map name, causing a change in map used
+1989, 7, 'no_fire_1p0.asc'                           // Year, month, and map name, causing a change in map used
+-99, -99, '-99'                                      // End of file markers
